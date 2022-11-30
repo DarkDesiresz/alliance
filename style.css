@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'trebuchet';
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: 0.2s;
+}
+.navbar {
+    background-image: linear-gradient(to right, #c46fcf,#5774cd);
+    padding: 0 !important;
+}
+.navbar-Logo img {
+    height: 80px;
+    width: 130px;
+    padding-left: 20px;
+}
+.navbar-li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    font-family: 'Trebuchet MS';
+    float: right;
+    text-align: left;
+}
+.navbar-toggler {
+    outline:none !important;
+}
+
+/*----------------------------------Banner Section -----------------*/
+#banner {
+    background-image: linear-gradient(to right, #c46fcf,#5774cd);
+    color: white;
+    padding-top: 5%;
+}
+.team-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS';
+}
+.bottom-paragraph {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Trebuchet MS';
+}
+
+#banner a  {
+    color: white;
+    text-decoration: none;
+}
+
+/* ----------------------About Us Section------------------------------*/
+#team {
+    padding: 80px 0;
+}
+.teams-img{
+    width: 100px;
+    margin-top: 20px; 
+}
+.teams {
+    padding: 20px;
+}
+
+.teams h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before {
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+/*------------------------Hour Of Code section ------------------------------------------*/
+
+.horh3 {
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    left: 325px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+}
+
+.hrotext {
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        left:325px;
+        font-size: 18px;
+}
+.hor-img {
+    display: block;
+    margin-right: 100px;
+    float: right;
+    position: relative;
+    left: 650px;
+}
+
+/* ------------------Website Project Information Section ------------------------- */
+
+
+
+.h3text {
+        margin-bottom: 150px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        left:150px;
+        position: relative;
+        top:120px;
+        font-size: 18px;
+}
+.chart-png {
+    display: block;
+    margin-right: 100px;
+    float: right;
+    position: relative;
+    left: 275px;
+    position: relative;
+    bottom: 450px;
+}
